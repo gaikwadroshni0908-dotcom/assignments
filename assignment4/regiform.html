@@ -1,0 +1,82 @@
+                                                                                           <!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css" >
+</head>
+<body>
+    <form>
+    <h1 align="centre"><i> Registration Form</i></h1>
+    <form action="submit.php" method="post">
+        <table>
+            <caption>Registration Form</caption>
+            <tr>
+                <td>Username</td>
+                <td><input type="text" name="tUsername" placeholder="enter youer username" required>
+                
+                
+                </td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><input type="password" name="tPassword" placeholder="enter your Password"></td>
+            </tr>
+            <tr>
+                <td> Email</td>
+                <td> <input type="email"" name="tEmail" placeholder="enter your email"></td>
+            </tr>
+            <tr>
+                <td>Age</td>
+                <td> <input type="number" name="tAge" placeholder="enter your Age"></td>
+            </tr>
+            <tr>
+                <td>Date of birth</td>
+                <td><input type="datetime-local" name="tDateofbirth" placeholder="enter your date of birth"></td>
+            </tr>
+            <tr>
+                <td>Profile Pictur </td>
+                <td><input type="file" name="fileprofile"></td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <label for="101"><input type="radio" name="rGender" value="Male" id="101">Male</label>
+                    <label for="102"><input type="radio" name="rGender" value="Female" id="102">Female</label>
+                </td>
+            </tr>
+            <td>interest</td>
+            <td>
+                <label for="103"><input type="radio" name="rinterest" value="coading" id="103">Coading</label>
+                <label for="104"><input type="radio" name="rinterest" value="Music" id="104">Music</label>
+            </td>
+            <tr>
+                <td> Country </td>
+                <td><select autocomplete="country" id="country" name="country">
+                    <option>select country</option>
+                    <option value="AF">afghanistan</option>
+                    <option value="AX">Alands islands</option>
+                </select>
+            </tr>
+            <tr>
+                <td>Bio</td>
+                <td><label for="taddress">
+                    <textarea rows="5" cols="50" name="taddress" required></textarea></td>
+            </tr>
+            <tr>
+                <td>faviourite color</td>
+                <td><input type="color" name="ddcolor">
+            </tr>
+            <td>Experience Year </td>
+            <td><input type="range"></td>
+        </table>
+        <tr>
+            <input type="submit">
+            <input type="reset">
+        </tr>
+        </form>
+    
+    
+</body>
+</html>
