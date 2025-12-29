@@ -1,0 +1,19 @@
+body
+{
+background-color: red;
+}
+footer 
+{
+  font-size: 30px;
+  
+}
+
+nav
+{
+    padding: 15px;
+}
+
+nav a
+{
+    padding: 10px;
+}
